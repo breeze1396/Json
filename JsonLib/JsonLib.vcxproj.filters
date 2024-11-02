@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="json_value.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="json_parse.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="json_generator.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="json_exception.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="json_valueiterator.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="json_tool.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Json.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test.cpp" />
+  </ItemGroup>
+</Project>
